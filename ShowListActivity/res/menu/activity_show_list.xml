@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/item1" 
+        android:checkable="true" 
+        android:title="@string/completed"></item>
+    <item android:id="@+id/item2" 
+        android:checkable="true" 
+        android:title="@string/sorted"></item>
+
+</menu>

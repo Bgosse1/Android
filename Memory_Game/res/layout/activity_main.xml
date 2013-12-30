@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:gravity="center"
+        android:text="The Memory Game"
+        android:textColor="#461B7E"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="by Rafael Oquendo and Mike Moskie"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#461B7E" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="86dp"
+        android:gravity="center"
+        android:text="Click anywhere to start the memory game"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#461B7E" />
+    
+</RelativeLayout>
